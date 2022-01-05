@@ -1,0 +1,37 @@
+li {
+    color: blue
+}
+
+* {
+    color:green;
+}
+
+#special {
+    color: pink;
+}
+
+.red{ 
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    padding: 20px;
+    margin: 20px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray; 
+}
+
+button:hover {
+    color: purple;
+}
+
+button.btn:hover {
+    color: white;
+    background-color: #00aabb;
+}
+
+a[href]{
+    color: chocolate;
+}

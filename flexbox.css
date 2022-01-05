@@ -1,0 +1,66 @@
+/* html, body{
+    height: 100%;
+} */
+
+.container {
+    background: beige;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row-reverse; /*메인 축 담당*/
+/*    flex-wrap: wrap; /* 아이템 크기의 변화 제어*/
+
+/*    justify-content: space-evenly; /*메인축에 대한 변화*/
+/*    align-items: center; /*보조 축 담당*/
+/*    align-content: center; /*줄바꿀때의 변화*/  
+}
+
+.item { /* item의 색깔 상관없이 */
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid black;
+}
+
+.item1 {
+    background: #ef9a9a;
+    flex-grow: 60%;
+}
+
+.item2 {
+    background: #f48fb1;
+    flex-grow: 60%;
+}
+
+.item3 {
+    background: #ce93d8;
+    flex-grow: 60%;
+}
+
+/*.item4 {
+    background: #b39ddb;
+}
+
+.item5 {
+    background: #90caf9;
+}
+
+.item6 {
+    background: #a5d6a7;
+}
+
+.item7 {
+    background: #e6ee9c;
+}
+
+.item8 {
+    background: #fff59d;
+}
+
+.item9 {
+    background: #ffcc80;
+}
+
+.item10 {
+    background: #ffab91;
+}*/

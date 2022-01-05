@@ -1,0 +1,12 @@
+table {
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+}
+
+.screen {
+	text-align: right;
+}
+
+.full{
+	width: 100%;
+}

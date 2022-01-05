@@ -1,0 +1,23 @@
+div, span{
+    width:  80px;
+    height:  80px;
+    margin: 20px;
+}
+
+div{
+    background: red;
+    display: inline-block;
+}
+
+span{
+    background: blue;
+    display: block;
+}
+
+.navdar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263343;
+    padding: 8px 12px;
+}

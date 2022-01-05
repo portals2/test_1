@@ -1,0 +1,20 @@
+div, span{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: red;
+}
+
+.container{
+    background: yellow;
+    top: 20px;
+    left: 20px;
+    position: relative; /* 기본은 static이여서 변화하지 않는다. relative는 static을 기준으로*/
+}
+
+.box{
+    background: blue;
+    top: 20px;
+    left: 20px;
+    position: sticky; /*absolute는 부모를 기준으로 움직인다. fixed는 가장 밖에있는 위도우를 기준으로, sticky는 페이지에 고정*/
+}

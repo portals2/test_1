@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<script type="text/javascript" src="calculator.js"></script>
+</head>
+<body onload='addListeners()'>
+	<div align="center">
+		<table>
+			<tr>
+				<td colspan="4">
+					<input type="text" id="screen" class="screen" placeholder="0" readonly>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="button" class="full digit">7</button>
+				</td>
+				<td>
+					<button type="button" class="full digit">8</button>
+				</td>
+				<td>
+					<button type="button" class="full digit">9</button>
+				</td>
+				<td>
+					<button type="button" class="full operator">+</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="button" class="full digit">4</button>
+				</td>
+				<td>
+					<button type="button" class="full digit">5</button>
+				</td>
+				<td>
+					<button type="button" class="full digit">6</button>
+				</td>
+				<td>
+					<button type="button" class="full minus">-</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="button" class="full digit">1</button>
+				</td>
+				<td>
+					<button type="button" class="full digit">2</button>
+				</td>
+				<td>
+					<button type="button" class="full digit">3</button>
+				</td>
+				<td>
+					<button type="button" class="full operator">*</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="button" class="full digit">0</button>
+				</td>
+				<td>
+					<button type="button" class="full">.</button>
+				</td>
+				<td>
+					<button type="button" class="full operator">/</button>
+				</td>
+				<td>
+					<button type="button" class="full equal">=</button>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<button type="button" class="full reset">C</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
